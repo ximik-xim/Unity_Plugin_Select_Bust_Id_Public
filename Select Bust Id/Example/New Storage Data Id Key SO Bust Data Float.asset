@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7911fff2e26e84b830bc29ad81be34, type: 3}
+  m_Name: New Storage Data Id Key SO Bust Data Float
+  m_EditorClassIdentifier: 
+  _data:
+    _listData:
+    - Key:
+        _dataSO: {fileID: 11400000, guid: 1f542db4acfd89848be1321a90b892e6, type: 2}
+        _selectIndif: {fileID: 11400000, guid: 6e165f9320ed31740bb2317a18476695, type: 2}
+        _error:
+          Enable: 0
+          TextError: 
+          MessageType: 0
+      Data:
+        _maxId: 5
+        _listData:
+        - Key: 0
+          Data:
+            _keyBust:
+              _dataSO: {fileID: 11400000, guid: e6cf59d14a476f84b904e51a9c2b55ef, type: 2}
+              _selectIndif: {fileID: 11400000, guid: 76f4d22422fd35f4f8505d3d9350e0f2, type: 2}
+              _error:
+                Enable: 0
+                TextError: 
+                MessageType: 0
+            _bustData:
+              _typeAction: 0
+              _value: 20
+        - Key: 1
+          Data:
+            _keyBust:
+              _dataSO: {fileID: 11400000, guid: e6cf59d14a476f84b904e51a9c2b55ef, type: 2}
+              _selectIndif: {fileID: 11400000, guid: 7b43ad85411fa9a45a16b6013ae1b077, type: 2}
+              _error:
+                Enable: 0
+                TextError: 
+                MessageType: 0
+            _bustData:
+              _typeAction: 0
+              _value: 20
+        - Key: 2
+          Data:
+            _keyBust:
+              _dataSO: {fileID: 11400000, guid: e6cf59d14a476f84b904e51a9c2b55ef, type: 2}
+              _selectIndif: {fileID: 11400000, guid: 651311a0dcf6d4247bfa7b479af462bb, type: 2}
+              _error:
+                Enable: 0
+                TextError: 
+                MessageType: 0
+            _bustData:
+              _typeAction: 0
+              _value: 40
+        - Key: 3
+          Data:
+            _keyBust:
+              _dataSO: {fileID: 11400000, guid: e6cf59d14a476f84b904e51a9c2b55ef, type: 2}
+              _selectIndif: {fileID: 11400000, guid: 327fc3ae74dc48246af3ea88c921ede8, type: 2}
+              _error:
+                Enable: 0
+                TextError: 
+                MessageType: 0
+            _bustData:
+              _typeAction: 0
+              _value: 50
+        - Key: 4
+          Data:
+            _keyBust:
+              _dataSO: {fileID: 11400000, guid: e6cf59d14a476f84b904e51a9c2b55ef, type: 2}
+              _selectIndif: {fileID: 11400000, guid: a421f73d587d9a145ab1d5c62a0a69aa, type: 2}
+              _error:
+                Enable: 0
+                TextError: 
+                MessageType: 0
+            _bustData:
+              _typeAction: 0
+              _value: 80
+        - Key: 5
+          Data:
+            _keyBust:
+              _dataSO: {fileID: 11400000, guid: e6cf59d14a476f84b904e51a9c2b55ef, type: 2}
+              _selectIndif: {fileID: 11400000, guid: 82c325c6e8e93064ab7adfc1c00f824b, type: 2}
+              _error:
+                Enable: 0
+                TextError: 
+                MessageType: 0
+            _bustData:
+              _typeAction: 0
+              _value: 100
