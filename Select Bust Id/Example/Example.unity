@@ -430,6 +430,65 @@ MonoBehaviour:
   _replicationTaskReadyExecutor:
     _debugLog: 0
     _listAction: 
+--- !u!1 &501455322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 501455325}
+  - component: {fileID: 501455323}
+  - component: {fileID: 501455324}
+  m_Layer: 0
+  m_Name: DKO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &501455323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501455322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb8bf1702234254cb786045b9a9d002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characteristicStorageFloat: {fileID: 1320414442}
+--- !u!114 &501455324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501455322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7a5149b4179f5478a0938f7da92a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data: {fileID: 501455323}
+--- !u!4 &501455325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501455322}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1320414443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &562204354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1481,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122623136}
   m_CullTransparentMesh: 1
+--- !u!1 &1135354704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1135354707}
+  - component: {fileID: 1135354706}
+  - component: {fileID: 1135354705}
+  m_Layer: 0
+  m_Name: Get Characteristic Float Wrapper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1135354705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135354704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf57b526957d8045b5360d6260f1dcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _getCharacteristicFloat: {fileID: 1135354706}
+--- !u!114 &1135354706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135354704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80405fd15c4f0e44ca26e18f280ec8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyCharacteristic:
+    _dataSO: {fileID: 11400000, guid: e50542af3e401dc45866669947bcda70, type: 2}
+    _selectIndif: {fileID: 11400000, guid: 80ed6b8a53b74da47a77a5dba6bc0f7c, type: 2}
+    _error:
+      Enable: 0
+      TextError: 
+      MessageType: 0
+  _characteristicStorage: {fileID: 501455323}
+--- !u!4 &1135354707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135354704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 372.79846, y: 1010.3798, z: -2.9343262}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1159561618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,6 +2000,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 501455325}
   - {fileID: 122785997}
   - {fileID: 1574298705}
   - {fileID: 1160012586}
@@ -2953,8 +3079,8 @@ MonoBehaviour:
       TextError: 
       MessageType: 0
   _keySaveId:
-    _dataSO: {fileID: 11400000, guid: 76fbfa17da226764abf0f71c34f2a3aa, type: 2}
-    _selectIndif: {fileID: 11400000, guid: ccbfe9c450e7b044592a5d60a6b0bd98, type: 2}
+    _dataSO: {fileID: 11400000, guid: 3a93be05cffe8624c817a2068c58ff0b, type: 2}
+    _selectIndif: {fileID: 11400000, guid: 08bf39fa61c7eba4e9c42d44e8ce54ee, type: 2}
     _error:
       Enable: 0
       TextError: 
@@ -2962,9 +3088,11 @@ MonoBehaviour:
   _maxId: 5
   _saveKey: {fileID: 1942435604}
   _isBuyProduct: {fileID: 1942435603}
-  _buyProdddd: {fileID: 1942435602}
+  _buyProduct: {fileID: 1942435602}
   _logicTask: {fileID: 288777752}
   _dko: {fileID: 0}
+  _typeSaveData: 2
+  _isDebug: 1
 --- !u!4 &1942435601
 Transform:
   m_ObjectHideFlags: 0
@@ -2996,7 +3124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6978459a481194d892ac7d95f1edca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _returnValue: 0
+  _returnValue: 1
 --- !u!114 &1942435603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3022,8 +3150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbbaf69a3a88ab43ab62c097a23a24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _returnValueIsSave: 0
-  _idSave: 1
+  _returnValueIsSave: 1
+  _idSave: 2
 --- !u!1 &1945913785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3162,7 +3290,6 @@ MonoBehaviour:
   _selectBust: {fileID: 1942435600}
   _button: {fileID: 1945913787}
   _storagePrice: {fileID: 11400000, guid: 3e0fb59ba62f2ba4e95c6ae5c0bfb522, type: 2}
-  _text: {fileID: 1159561620}
 --- !u!1 &1973287464
 GameObject:
   m_ObjectHideFlags: 0
@@ -3546,3 +3673,4 @@ SceneRoots:
   - {fileID: 1320414443}
   - {fileID: 1821172255}
   - {fileID: 1778351343}
+  - {fileID: 1135354707}

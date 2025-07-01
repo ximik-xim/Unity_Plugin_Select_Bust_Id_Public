@@ -51,6 +51,10 @@ public class SBI_AbsStorageDataIdKey<Data>
         return _dictionaryData2[key.GetKey()];
     }
 
+    public bool IsThereKey(KeyProductId key)
+    {
+        return _dictionaryData2.ContainsKey(key.GetKey());
+    }
     private string GetKey(KeyProductId key, int id)
     {
         return key.GetKey() + id;

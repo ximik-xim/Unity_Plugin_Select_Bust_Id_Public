@@ -21,6 +21,9 @@ public class SBI_TestBuyProduct : SBI_AbsBuyProduct
         data.Data.StatusServer = StatusCallBackServer.Ok;
         data.Data.GetData = new BuyProductData(_returnValue);
 
+        data.Data.IsGetDataCompleted = true;
+        data.Data.Invoke();
+        
         return data.DataGet;
     }
 }

@@ -219,7 +219,7 @@ public class SelectBustId : MonoBehaviour
 
             if (_isBuyProductData.IsGetDataCompleted == false)
             {
-               _dataBuy.OnGetDataCompleted += OnGetDataCompletedIsBuyProductInit;
+               _isBuyProductData.OnGetDataCompleted += OnGetDataCompletedIsBuyProductInit;
                return;
             }
             else
@@ -256,7 +256,7 @@ public class SelectBustId : MonoBehaviour
    
    private void OnGetDataCompletedIsBuyProductInit()
    {
-      _dataBuy.OnGetDataCompleted -= OnGetDataCompletedIsBuyProductInit;
+      _isBuyProductData.OnGetDataCompleted -= OnGetDataCompletedIsBuyProductInit;
       GetDataCompletedIsBuyProductInit();
    }
 
@@ -448,11 +448,24 @@ public class SelectBustId : MonoBehaviour
                
             if (_isBuyProductData.IsGetDataCompleted == false)
             {
-               _dataBuy.OnGetDataCompleted += OnGetDataCompletedIsBuyProduct;
+               //#if UNITY_EDITOR
+               if (_isDebug == true)
+               {
+                  Debug.Log(gameObject.name + " SBI 2110");
+               }
+//#endif
+               
+               _isBuyProductData.OnGetDataCompleted += OnGetDataCompletedIsBuyProduct;
                return;
             }
             else
             {
+               //#if UNITY_EDITOR
+               if (_isDebug == true)
+               {
+                  Debug.Log(gameObject.name + " SBI 2120");
+               }
+//#endif
                GetDataCompletedIsBuyProduct();
                return;
             }
@@ -462,7 +475,13 @@ public class SelectBustId : MonoBehaviour
 
    private void OnGetDataCompletedIsBuyProduct()
    {
-      _dataBuy.OnGetDataCompleted -= OnGetDataCompletedIsBuyProduct;
+      //#if UNITY_EDITOR
+      if (_isDebug == true)
+      {
+         Debug.Log(gameObject.name + " SBI 2150");
+      }
+//#endif
+      _isBuyProductData.OnGetDataCompleted -= OnGetDataCompletedIsBuyProduct;
       GetDataCompletedIsBuyProduct();
    }
 
@@ -501,6 +520,13 @@ public class SelectBustId : MonoBehaviour
          }
          else
          {
+            
+            //#if UNITY_EDITOR
+            if (_isDebug == true)
+            {
+               Debug.Log(gameObject.name + " SBI 2350");
+            }
+//#endif
             //Если оказалось что уже куплен
             ComplitedBuy();
          }
@@ -625,7 +651,7 @@ public class SelectBustId : MonoBehaviour
 
             if (_isBuyProductData.IsGetDataCompleted == false)
             {
-               _dataBuy.OnGetDataCompleted += OnGetDataCompletedIsBuyProductSetId;
+               _isBuyProductData.OnGetDataCompleted += OnGetDataCompletedIsBuyProductSetId;
                return;
             }
             else

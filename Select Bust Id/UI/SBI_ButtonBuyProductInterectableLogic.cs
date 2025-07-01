@@ -87,10 +87,28 @@ public class SBI_ButtonBuyProductInterectableLogic : MonoBehaviour
         {
             var DKOData = (DKODataInfoT<StorageMoney>)_patchStorageMoney.GetDKO();
             _storageMoney = DKOData.Data;
-            
-            Init();
+
+            if (_storageMoney.IsInit == false)
+            {
+                _storageMoney.OnInit += OnInitStorageMoney;
+                return;
+            }
+
+            InitStorageMoney();
         }
     }
+    
+    private void OnInitStorageMoney()
+    {
+        _storageMoney.OnInit -= OnInitStorageMoney;
+        InitStorageMoney();
+    }
+    
+    private void InitStorageMoney()
+    {
+        Init();
+    }
+
 
     private void Init()
     {
