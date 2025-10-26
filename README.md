@@ -12,3 +12,5 @@ Unity_Plugin_Buy_Product_Server_Public - https://github.com/ximik-xim/Unity_Plug
 Unity_Plugin_Save_Data_Public - https://github.com/ximik-xim/Unity_Plugin_Save_Data_Public
 
 Unity_Plugin_Characteristic_And_Bust_Public - https://github.com/ximik-xim/Unity_Plugin_Characteristic_And_Bust_Public
+
+Unity_Plugin_Storage_UI_Image_Public - https://github.com/ximik-xim/Unity_Plugin_Storage_UI_Image_Public

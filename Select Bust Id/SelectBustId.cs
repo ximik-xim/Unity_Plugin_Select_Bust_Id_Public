@@ -37,7 +37,7 @@ public class SelectBustId : MonoBehaviour
    private KeyProductId _targetKeyData;
 
    [SerializeField]
-   private LogicTaskGroupDKO _logicTask;
+   private LogicListTaskDKO _logicTask;
    [SerializeField]
    private DKOKeyAndTargetAction _dko;
 

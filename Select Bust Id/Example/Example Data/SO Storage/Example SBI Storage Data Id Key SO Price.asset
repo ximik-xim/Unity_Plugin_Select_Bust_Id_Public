@@ -10,13 +10,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d0b7cf1ee6991a4eb68154fabddc1d1, type: 3}
-  m_Name: New Storage Data Id Key SO Price
+  m_Name: Example SBI Storage Data Id Key SO Price
   m_EditorClassIdentifier: 
   _data:
     _listData:
     - Key:
         _dataSO: {fileID: 11400000, guid: 1f542db4acfd89848be1321a90b892e6, type: 2}
         _selectIndif: {fileID: 11400000, guid: 6e165f9320ed31740bb2317a18476695, type: 2}
+        _error:
+          Enable: 0
+          TextError: 
+          MessageType: 0
+      Data:
+        _maxId: 0
+        _listData:
+        - Key: 0
+          Data:
+            _price: 100
+        - Key: 1
+          Data:
+            _price: 200
+        - Key: 2
+          Data:
+            _price: 300
+        - Key: 3
+          Data:
+            _price: 400
+        - Key: 4
+          Data:
+            _price: 500
+        - Key: 5
+          Data:
+            _price: 600
+    - Key:
+        _dataSO: {fileID: 11400000, guid: 1f542db4acfd89848be1321a90b892e6, type: 2}
+        _selectIndif: {fileID: 11400000, guid: 3dc16216297919d4fb1dae66a8cf5599, type: 2}
         _error:
           Enable: 0
           TextError: 

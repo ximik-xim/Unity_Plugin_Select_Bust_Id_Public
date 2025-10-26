@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// обстракция для запуска покупки товара
+/// </summary>
 public abstract class SBI_AbsBuyProduct : MonoBehaviour
 {
     public abstract event Action OnInit;

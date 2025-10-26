@@ -10,15 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c182f4d28bd98b94184718ba37f59ca3, type: 3}
-  m_Name: New SO Data Product Id
+  m_Name: Example SBI SO Data Product Id
   m_EditorClassIdentifier: 
   _nameSO: New SO Data Product Id
   _setName: 1
-  _ChechTargetPath: 0
+  _saveBackupChangeData: 1
   _list:
   - _identifierData: {fileID: 11400000, guid: 6e165f9320ed31740bb2317a18476695, type: 2}
     _dataKey:
-      _key: "\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0434\u0443\u043A\u0442"
+      _key: "\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0434\u0443\u043A\u0442(\u0431\u0443\u0441\u0442)
+        1"
+  - _identifierData: {fileID: 11400000, guid: 3dc16216297919d4fb1dae66a8cf5599, type: 2}
+    _dataKey:
+      _key: "\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0434\u0443\u043A\u0442(\u0431\u0443\u0441\u0442)
+        2"
   _fatalError:
     Enable: 0
     TextError: 

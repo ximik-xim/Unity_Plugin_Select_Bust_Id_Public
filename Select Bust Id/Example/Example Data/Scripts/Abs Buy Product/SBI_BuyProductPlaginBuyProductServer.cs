@@ -1,6 +1,10 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// Перенаправляет на логику покупок из плагину
+/// Buy Product Server
+/// </summary>
 public class SBI_BuyProductPlaginBuyProductServer : SBI_AbsBuyProduct
 {
     [SerializeField] 

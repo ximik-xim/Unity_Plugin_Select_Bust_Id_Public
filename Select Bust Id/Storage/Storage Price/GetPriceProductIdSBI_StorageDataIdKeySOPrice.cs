@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// Вернет цену товара полученную с SO со списком товаров
+/// </summary>
 public class GetPriceProductIdSBI_StorageDataIdKeySOPrice : AbsGetPriceProductId
 {
     [SerializeField] 

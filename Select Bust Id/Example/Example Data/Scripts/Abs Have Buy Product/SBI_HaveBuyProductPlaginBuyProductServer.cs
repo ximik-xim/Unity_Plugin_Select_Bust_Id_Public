@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// (обертка) Проверяет был ли куплен товар через логику проверки купленного товара у плагина Buy Product Server
+/// </summary>
 public class SBI_HaveBuyProductPlaginBuyProductServer : SBI_AbsHaveBuyProduct
 {
     [SerializeField] 
