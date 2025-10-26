@@ -23,3 +23,7 @@ Unity_Plugin_Save_Data_Public - https://github.com/ximik-xim/Unity_Plugin_Save_D
 Unity_Plugin_Characteristic_And_Bust_Public - https://github.com/ximik-xim/Unity_Plugin_Characteristic_And_Bust_Public
 
 Unity_Plugin_Storage_UI_Image_Public - https://github.com/ximik-xim/Unity_Plugin_Storage_UI_Image_Public
+
+---------------------------------------------------------------------------------------------------------
+
+Ну и так же нужно восстановить ключи TList из бэкапов. Для этого нажимаем на папку Select Bust Id кнопкой ПКМ и заходим в пункт TList -> К папке -> Стереть и восстановить все данные
