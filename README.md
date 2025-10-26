@@ -1,6 +1,12 @@
 Плагин нужен для прокачки персонажа с этапами прокачки одной характеристики
 
+---------------------------------------------------------------------------------------------------------
+Примеры сцен находяться по пути
+Select Bust Id -> Example -> Example Scene Select Bust Id
+---------------------------------------------------------------------------------------------------------
+
 Для работы нужны плагины
+
 Unity_Plugin-General_Public - https://github.com/ximik-xim/Unity_Plugin-TList_Public
 
 Unity_Plugin-TList_Public - https://github.com/ximik-xim/Unity_Plugin-General_Public
